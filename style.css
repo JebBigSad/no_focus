@@ -14,13 +14,21 @@
     font-weight: normal;
 }
 
-
+body {
+    background-color: #000028;
+}
 
 .header {
     width: 1024px;
     height: 768px;
     background-image: url("image/bg.png");
-    background-color: #000028;
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: max-content;
+    position: relative;
 }
 
 .lamp {
@@ -87,4 +95,122 @@
 .navigation button:hover {
     cursor: pointer;
     border:  solid #ff0070;
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 83%;
+    color: #db00ff;
+    text-shadow: 4px 4px #ff0070;
+    position: absolute;
+    top: 319px;
+    margin: 0;
+    
+}
+
+.text {
+    width: 491px;
+    height: 70px;
+    background: #ff0070;
+    position: absolute;
+    left: 513px;
+    top: 563px;
+
+}
+
+.text p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    margin: 0;
+}
+
+main {
+    padding: 0px 20px;
+    width: 1024px;
+    height: 508px;
+}
+
+.section-1 {
+    padding: 0px 20px;
+    width: 1024px;
+    height: 508px;
+}
+
+.l-text {
+    width: 1024px;
+    height: 508px;
+    position: absolute;
+    top: 828px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #ff0070;
+}
+
+.texter {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    width: 648px;
+    height: 244px;
+    position: relative;
+    left: 330px;
+    top: 57px;
+}
+
+.texter p {
+    width: 648px;
+    height: 211px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #f1b2ce;
+}
+
+.zg {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    background: #ff0070;
+}
+
+.texter-2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    width: 648px;
+    height: 244px;
+    position: relative;
+    left: 330px;
+    top: 70px;
+}
+
+.texter-2 p {
+    width: 648px;
+    height: 211px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #f1b2ce; 
+}
+
+.zg-2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000028;
+    background: #ff0070;
 }
