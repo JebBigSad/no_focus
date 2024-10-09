@@ -19,7 +19,7 @@
 .header {
     width: 1024px;
     height: 768px;
-    background-image: url("assets/img/cover-image-dark.svg");
+    background-image: url("image/bg.png");
     background-color: #000028;
 }
 
@@ -50,7 +50,7 @@
     content: '';
 }
 
-.square-1 {
+.se-1 {
     border-bottom: 1px solid #ff0070;
     border-left: 1px solid #ff0070;
     width: 25px;
@@ -60,7 +60,7 @@
     left: 20px;
 }
 
-.square-2 {
+.se-2 {
     border-right: 1px solid #ff0070;
     border-top: 1px solid #ff0070;
     width: 25px;
